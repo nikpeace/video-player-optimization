@@ -15,7 +15,6 @@ export default function VideoPlayer({ videoSrc }: { videoSrc?: string }) {
       ref={videoRef}
       controls
       preload="metadata"
-      download
       playsInline
       style={{ width: "100%" }}
     >
